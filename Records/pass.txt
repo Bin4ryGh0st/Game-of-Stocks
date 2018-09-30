@@ -1,0 +1,6 @@
+root toor Root_User
+temp temp Temp_User
+var var var
+gyan 123 gyan
+ankit@host.com ankit123 ankit
+golud.pg@gmail.com 12345 pratik_garg

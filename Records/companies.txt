@@ -1,0 +1,11 @@
+Google 1154
+Uber 361
+Infosys 354
+Samsung 322
+Amazon 310
+IBM 303
+Apple 286
+Facebook 264
+TATA 108
+Microsoft 81
+Reliance 70
