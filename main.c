@@ -4,6 +4,7 @@
 #include<windows.h>
 #include<time.h>
 #include<conio.h>
+#include<math.h>
 
 COORD coord;
 int i,j,k,c,z,tempi;
