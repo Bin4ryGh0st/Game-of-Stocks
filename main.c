@@ -5,7 +5,7 @@
 #include<time.h>
 #include<conio.h>
 #include<math.h>
-
+/*this is all about game of stocks*/
 COORD coord;
 int i,j,k,c,z,tempi;
 char tempc,tempstr[50],tempnewfile[50],tempnewfile1[50];
