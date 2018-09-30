@@ -6,6 +6,7 @@
 #include<conio.h>
 #include<math.h>
 
+/* coord variable is used for creating UI */
 COORD coord;
 int i,j,k,c,z,tempi;
 char tempc,tempstr[50],tempnewfile[50],tempnewfile1[50];
