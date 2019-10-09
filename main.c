@@ -1,10 +1,11 @@
-#include<stdio.h>
-#include<string.h>
+                        //PROGRAM FOR GAME OF STOCKS(MANAGE)
+#include<stdio.h>               //STANDARD INPUT OUTPUT STREAM       
+#include<string.h>                                                  
 #include<stdlib.h>
 #include<windows.h>
 #include<time.h>
 #include<conio.h>
-#include<math.h>
+#include<math.h>                
 
 /* coord variable is used for creating UI */
 /*this is all about game of stocks*/
@@ -376,7 +377,7 @@ void ui()
     cls(1);
 }
 
-int signUpAsIndi()
+int signUpAsIndi()                                  //SIGN UP FUNCTION
 {
     strcpy(tempnewfile,"Indi\\");
     gotoxy(55,3);
@@ -443,7 +444,7 @@ int signUpAsIndi()
 
 }
 
-int logIn()
+int logIn()                                     //FUNCTION WILL LOGIN
 {
     gotoxy(57,3);
     printf("LOG IN");
@@ -502,7 +503,7 @@ int form()
     makeGeneralBox(28,12,25,2,0);
     gotoxy(32,13);
     printf("Enter 1 to LOG IN");
-    makeGeneralBox(28,15,25,2,0);
+    makeGeneralBox(28,15,25,2,0);               
     gotoxy(32,16);
     printf("Enter 2 to SIGN UP");
     makeGeneralBox(65,12,25,5,0);
@@ -634,7 +635,7 @@ void mainPage()
     loggedIn();
 }
 
-void rankTable()
+void rankTable()                                                //RANK TABLE
 {
     fptr=fopen("Records\\companies.txt","r");
         gotoxy(8,2);
@@ -660,7 +661,7 @@ void rankTable()
         fclose(fptr);
 }
 
-int buyStock()
+int buyStock()                          // BUYSTOCK FUNCTION
 {
     switch(_getch())
     {
@@ -793,7 +794,7 @@ int loggedIn()
     return 0;
 }
 
-int main()
+int main()                                  //MAIN FUNCTION STARTS
 {
     ui();
     mainPage();
