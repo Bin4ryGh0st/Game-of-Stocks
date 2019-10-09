@@ -1,4 +1,4 @@
-                        //PROGRAM FOR GAME OF STOCKS(MANAGE)
+                        //PROGRAM FOR GAME OF STOCKS(MANAGE SHARES)
 #include<stdio.h>               //STANDARD INPUT OUTPUT STREAM       
 #include<string.h>                                                  
 #include<stdlib.h>
